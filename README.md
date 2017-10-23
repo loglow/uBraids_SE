@@ -12,7 +12,7 @@ This redesigned *µBraids SE* (Special Edition) is a new revision of *µBraids* 
 
 The original [*Braids*](http://mutable-instruments.net/modules/braids) was designed by [Olivier Gillet of *Mutable Instruments*](http://mutable-instruments.net/about) under a [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0) license. *Braids* is a macro-oscillator with multiple intricate digital synthesis algorithms. Each algorithm is controlled by two continuously variable parameters, both of which are voltage controllable. It is available as a 16HP Eurorack module. [(Source)](http://github.com/pichenettes/eurorack)
 
-The original [*microBraids* (aka *µBraids*)](http://store.magpiemodular.com/products/microbraids-pcb) is a full-functionality adaptation of *Braids* designed by [*Magpie Modular*](http://magpiemodular.com) and is available only as a bare PCB (printed circuit board). It is 8HP (exactly half the original width) and features an OLED display driven by a 2nd processor. Nothing else has been altered component-wise so any future firmware upgrades or alternate firmware such as [*Bees-in-the-Trees*](http://timchurches.github.io/Mutated-Mutables) will work fine. [(Source)](http://github.com/MagpieModular/microBraids)
+The original [*microBraids* (aka *µBraids*)](http://store.magpiemodular.com/products/microbraids-pcb) is a full-functionality adaptation of *Braids* designed by [*Magpie Modular*](http://magpiemodular.com) and [*Neutron Sound*](http://neutron-sound.com/) and is available only as a bare PCB (printed circuit board). It is 8HP (exactly half the original width) and features an OLED display driven by a 2nd processor. Nothing else has been altered component-wise so any future firmware upgrades or alternate firmware such as [*Bees-in-the-Trees*](http://timchurches.github.io/Mutated-Mutables) will work fine. [(Source)](http://github.com/MagpieModular/microBraids)
 
 # Warranty
 
@@ -21,7 +21,7 @@ This product comes with a one year warranty which covers manufacturing defects. 
 # Attributions
 
 - Designed by Michael & Daniel Gilbert of [*Tall Dog Electronics*](http://tall-dog.com) in Western Massachusetts
-- Based on the *microBraids* (aka *µBraids*) module designed by Chad Bartel of [*Magpie Modular*](http://magpiemodular.com), Jim Matheson, and Altitude909
+- Based on the *microBraids* (aka *µBraids*) module designed by [*Magpie Modular*](http://magpiemodular.com) and [*Neutron Sound*](http://neutron-sound.com/)
 - Based on the *Braids* module designed by Olivier Gillet of [*Mutable Instruments*](http://mutable-instruments.net)
 - Manufactured by [*CircuitHub*](http://circuithub.com) via [*Worthington Assembly*](http://worthingtonassembly.com) in South Deerfield, Massachusetts
 - Licensed under the [*Creative Commons Attribution-ShareAlike 4.0 International Public License*](http://creativecommons.org/licenses/by-sa/4.0)
