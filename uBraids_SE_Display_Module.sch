@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -954,9 +955,10 @@ by exp-lbrs.ulp</description>
 <plain>
 <text x="148.59" y="24.13" size="2.54" layer="94">Licensed: CC BY-SA 4.0
 Board derived from work by:
-Mutable Instruments / Olivier Gillet</text>
+Olivier Gillet of Mutable Instruments</text>
 <text x="148.59" y="6.35" size="2.54" layer="94">Website: TALL-DOG.COM</text>
-<text x="236.22" y="6.35" size="3.81" layer="94">B</text>
+<text x="236.22" y="6.35" size="3.81" layer="94">C</text>
+<text x="186.69" y="11.43" size="2.54" layer="94">N/A</text>
 </plain>
 <instances>
 <instance part="A1" gate="G$1" x="99.06" y="129.54"/>
@@ -1683,7 +1685,7 @@ Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
 </note>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>

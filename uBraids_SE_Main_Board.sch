@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1958,7 +1959,7 @@ LETTER landscape</description>
 <part name="D1" library="uBraids_SE" deviceset="DIODE" device="-SOD123" value="1N5819HW"/>
 <part name="D2" library="uBraids_SE" deviceset="DIODE" device="-SOD123" value="1N5819HW"/>
 <part name="H3" library="uBraids_SE" deviceset="HEADER-2X5" device="-PTH-0.1-SHROUDED"/>
-<part name="R4" library="uBraids_SE" deviceset="RESISTOR" device="-1206" value="4.7R"/>
+<part name="R4" library="uBraids_SE" deviceset="RESISTOR" device="-0805" value="4.7R"/>
 <part name="U6" library="uBraids_SE" deviceset="LM4041" device="-SOT-23" value="LM4040B10"/>
 <part name="R7" library="uBraids_SE" deviceset="RESISTOR" device="-1206" value="330R"/>
 <part name="C17" library="uBraids_SE" deviceset="CAP-NP" device="-0603" value="100n"/>
@@ -1974,11 +1975,11 @@ LETTER landscape</description>
 <sheets>
 <sheet>
 <plain>
-<text x="148.59" y="24.13" size="2.54" layer="94">Licensed: CC BY-SA 4.0
-Board derived from work by: Olivier Gillet,
-Magpie Modular, Jim Matheson, and altitude909</text>
+<text x="148.59" y="24.13" size="2.54" layer="94">Licensed: CC BY-SA 4.0, Board derived from
+work by: Olivier Gillet of Mutable Instruments,
+Magpie Modular, and Neutron Sound</text>
 <text x="148.59" y="6.35" size="2.54" layer="94">Website: TALL-DOG.COM</text>
-<text x="236.22" y="6.35" size="3.81" layer="94">B</text>
+<text x="236.22" y="6.35" size="3.81" layer="94">C</text>
 <text x="186.69" y="11.43" size="2.54" layer="94">N/A</text>
 <text x="247.65" y="19.05" size="3.81" layer="94" align="center-right">Digital</text>
 </plain>
@@ -2893,11 +2894,11 @@ Magpie Modular, Jim Matheson, and altitude909</text>
 </sheet>
 <sheet>
 <plain>
-<text x="148.59" y="24.13" size="2.54" layer="94">Licensed: CC BY-SA 4.0
-Board derived from work by: Olivier Gillet,
-Magpie Modular, Jim Matheson, and altitude909</text>
+<text x="148.59" y="24.13" size="2.54" layer="94">Licensed: CC BY-SA 4.0, Board derived from
+work by: Olivier Gillet of Mutable Instruments,
+Magpie Modular, and Neutron Sound</text>
 <text x="148.59" y="6.35" size="2.54" layer="94">Website: TALL-DOG.COM</text>
-<text x="236.22" y="6.35" size="3.81" layer="94">B</text>
+<text x="236.22" y="6.35" size="3.81" layer="94">C</text>
 <text x="247.65" y="19.05" size="3.81" layer="94" align="center-right">Analog</text>
 <text x="186.69" y="11.43" size="2.54" layer="94">N/A</text>
 </plain>
@@ -3627,7 +3628,7 @@ Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
 </note>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
