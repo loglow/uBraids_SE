@@ -80,46 +80,46 @@
 <wire x1="0" y1="128.5" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="40.3" y1="128.5" x2="40.3" y2="0" width="0" layer="20"/>
 <wire x1="40.3" y1="0" x2="0" y2="0" width="0" layer="20"/>
-<text x="7.9" y="73" size="1.75" layer="29" ratio="15" align="center">TRIG</text>
-<text x="7.9" y="58" size="1.75" layer="29" ratio="15" align="center">1V/OCT</text>
-<text x="20.4" y="65.5" size="1.75" layer="29" ratio="15" align="center">FINE</text>
-<text x="32.9" y="58" size="1.75" layer="29" ratio="15" align="center">COARSE</text>
-<text x="20.4" y="50.5" size="1.75" layer="29" ratio="15" align="center">FM</text>
-<text x="20.4" y="35.5" size="1.75" layer="29" ratio="15" align="center">TIMBRE</text>
-<text x="20.4" y="20.5" size="1.75" layer="29" ratio="15" align="center">COLOR</text>
-<text x="20.4" y="6" size="1.75" layer="29" ratio="15" align="center">OUT</text>
-<wire x1="7.65" y1="50.5" x2="17.65" y2="50.5" width="0.15" layer="29"/>
-<wire x1="22.65" y1="50.5" x2="32.65" y2="50.5" width="0.15" layer="29"/>
-<wire x1="7.65" y1="35.5" x2="14.9" y2="35.5" width="0.15" layer="29"/>
-<wire x1="25.4" y1="35.5" x2="32.65" y2="35.5" width="0.15" layer="29"/>
-<wire x1="7.65" y1="20.5" x2="15.15" y2="20.5" width="0.15" layer="29"/>
-<wire x1="25.15" y1="20.5" x2="32.65" y2="20.5" width="0.15" layer="29"/>
-<wire x1="17.15" y1="8" x2="23.15" y2="8" width="0.15" layer="29"/>
-<wire x1="23.65" y1="7.5" x2="23.65" y2="4.5" width="0.15" layer="29"/>
-<wire x1="23.15" y1="4" x2="17.15" y2="4" width="0.15" layer="29"/>
-<text x="16" y="112.25" size="3.6" layer="29" ratio="10" align="center">μBraids</text>
-<text x="31" y="112.25" size="2.5" layer="29" ratio="14" align="center">SE</text>
-<wire x1="16.65" y1="4.5" x2="16.65" y2="7.5" width="0.15" layer="29"/>
-<wire x1="27.5" y1="114.75" x2="34" y2="114.75" width="0.4" layer="29"/>
-<wire x1="34" y1="114.75" x2="34" y2="109.75" width="0.4" layer="29"/>
-<wire x1="34" y1="109.75" x2="27.5" y2="109.75" width="0.4" layer="29"/>
-<wire x1="27.5" y1="109.75" x2="27.5" y2="114.75" width="0.4" layer="29"/>
-<text x="20.6" y="90.25" size="2.35" layer="29" ratio="11" align="center">macro oscillator</text>
+<text x="7.9" y="73.25" size="1.75" layer="29" ratio="15" align="center">TRIG</text>
+<text x="7.9" y="58.25" size="1.75" layer="29" ratio="15" align="center">1V/OCT</text>
+<text x="20.4" y="65.75" size="1.75" layer="29" ratio="15" align="center">FINE</text>
+<text x="32.9" y="58.25" size="1.75" layer="29" ratio="15" align="center">COARSE</text>
+<text x="20.4" y="50.75" size="1.75" layer="29" ratio="15" align="center">FM</text>
+<text x="20.4" y="35.75" size="1.75" layer="29" ratio="15" align="center">TIMBRE</text>
+<text x="20.4" y="20.75" size="1.75" layer="29" ratio="15" align="center">COLOR</text>
+<text x="20.4" y="6.25" size="1.75" layer="29" ratio="15" align="center">OUT</text>
+<wire x1="7.65" y1="50.75" x2="17.65" y2="50.75" width="0.15" layer="29"/>
+<wire x1="22.65" y1="50.75" x2="32.65" y2="50.75" width="0.15" layer="29"/>
+<wire x1="7.65" y1="35.75" x2="14.9" y2="35.75" width="0.15" layer="29"/>
+<wire x1="25.4" y1="35.75" x2="32.65" y2="35.75" width="0.15" layer="29"/>
+<wire x1="7.65" y1="20.75" x2="15.15" y2="20.75" width="0.15" layer="29"/>
+<wire x1="25.15" y1="20.75" x2="32.65" y2="20.75" width="0.15" layer="29"/>
+<wire x1="17.15" y1="8.25" x2="23.15" y2="8.25" width="0.15" layer="29"/>
+<wire x1="23.65" y1="7.75" x2="23.65" y2="4.75" width="0.15" layer="29"/>
+<wire x1="23.15" y1="4.25" x2="17.15" y2="4.25" width="0.15" layer="29"/>
+<text x="16" y="112.5" size="3.6" layer="29" ratio="10" align="center">μBraids</text>
+<text x="31" y="112.5" size="2.5" layer="29" ratio="14" align="center">SE</text>
+<wire x1="16.65" y1="4.75" x2="16.65" y2="7.75" width="0.15" layer="29"/>
+<wire x1="27.5" y1="115" x2="34" y2="115" width="0.4" layer="29"/>
+<wire x1="34" y1="115" x2="34" y2="110" width="0.4" layer="29"/>
+<wire x1="34" y1="110" x2="27.5" y2="110" width="0.4" layer="29"/>
+<wire x1="27.5" y1="110" x2="27.5" y2="115" width="0.4" layer="29"/>
+<text x="20.6" y="90.5" size="2.35" layer="29" ratio="11" align="center">macro oscillator</text>
 <text x="20.3" y="122" size="1.4" layer="29" ratio="9" align="center">CC BY-SA 4.0</text>
 <polygon width="3.5" layer="29">
-<vertex x="3.25" y="105.25"/>
-<vertex x="37.05" y="105.25"/>
-<vertex x="37.05" y="96.25"/>
-<vertex x="3.25" y="96.25"/>
+<vertex x="3.25" y="105.5"/>
+<vertex x="37.05" y="105.5"/>
+<vertex x="37.05" y="96.5"/>
+<vertex x="3.25" y="96.5"/>
 </polygon>
-<wire x1="3.25" y1="106.25" x2="37.05" y2="106.25" width="0" layer="46"/>
-<wire x1="38.05" y1="105.25" x2="38.05" y2="96.25" width="0" layer="46"/>
-<wire x1="37.05" y1="95.25" x2="3.25" y2="95.25" width="0" layer="46"/>
-<wire x1="2.25" y1="96.25" x2="2.25" y2="105.25" width="0" layer="46"/>
-<wire x1="2.25" y1="105.25" x2="3.25" y2="106.25" width="0" layer="46" curve="-90"/>
-<wire x1="3.25" y1="95.25" x2="2.25" y2="96.25" width="0" layer="46" curve="-90"/>
-<wire x1="38.05" y1="96.25" x2="37.05" y2="95.25" width="0" layer="46" curve="-90"/>
-<wire x1="37.05" y1="106.25" x2="38.05" y2="105.25" width="0" layer="46" curve="-90"/>
+<wire x1="3.25" y1="106.5" x2="37.05" y2="106.5" width="0" layer="46"/>
+<wire x1="38.05" y1="105.5" x2="38.05" y2="96.5" width="0" layer="46"/>
+<wire x1="37.05" y1="95.5" x2="3.25" y2="95.5" width="0" layer="46"/>
+<wire x1="2.25" y1="96.5" x2="2.25" y2="105.5" width="0" layer="46"/>
+<wire x1="2.25" y1="105.5" x2="3.25" y2="106.5" width="0" layer="46" curve="-90"/>
+<wire x1="3.25" y1="95.5" x2="2.25" y2="96.5" width="0" layer="46" curve="-90"/>
+<wire x1="38.05" y1="96.5" x2="37.05" y2="95.5" width="0" layer="46" curve="-90"/>
+<wire x1="37.05" y1="106.5" x2="38.05" y2="105.5" width="0" layer="46" curve="-90"/>
 <wire x1="6.5" y1="123.9" x2="6.5" y2="127.1" width="0" layer="20" curve="-180"/>
 <wire x1="8.5" y1="127.1" x2="8.5" y2="123.9" width="0" layer="20" curve="-180"/>
 <wire x1="6.5" y1="127.1" x2="8.5" y2="127.1" width="0" layer="20"/>
@@ -136,44 +136,44 @@
 <wire x1="33.8" y1="127.1" x2="33.8" y2="123.9" width="0" layer="20" curve="-180"/>
 <wire x1="31.8" y1="127.1" x2="33.8" y2="127.1" width="0" layer="20"/>
 <wire x1="31.8" y1="123.9" x2="33.8" y2="123.9" width="0" layer="20"/>
-<text x="20" y="88" size="2" layer="22" ratio="10" rot="MR0" align="center">TALL-DOG.COM
+<text x="20" y="88.25" size="2" layer="22" ratio="10" rot="MR0" align="center">TALL-DOG.COM
 2017-10-23
 REV-C</text>
-<text x="20" y="50.5" size="2" layer="22" ratio="10" rot="MR90" align="center">Dervied from work
+<text x="20" y="50.75" size="2" layer="22" ratio="10" rot="MR90" align="center">Dervied from work
 by: Olivier Gillet of
 Mutable Instruments,
 Magpie Modular, and
 Neutron Sound</text>
 <text x="7.65" y="8" size="1.25" layer="22" ratio="12" rot="MR0" align="center">open source
 hardware</text>
-<wire x1="16.65" y1="7.5" x2="17.15" y2="8" width="0.15" layer="29" curve="-90"/>
-<wire x1="17.15" y1="4" x2="16.65" y2="4.5" width="0.15" layer="29" curve="-90"/>
-<wire x1="23.65" y1="4.5" x2="23.15" y2="4" width="0.15" layer="29" curve="-90"/>
-<wire x1="23.15" y1="8" x2="23.65" y2="7.5" width="0.15" layer="29" curve="-90"/>
-<hole x="3.15" y="116.5" drill="2.75"/>
-<hole x="37.15" y="116.5" drill="2.75"/>
-<wire x1="3.15" y1="119.5" x2="37.15" y2="119.5" width="0" layer="49"/>
-<wire x1="40.15" y1="116.5" x2="40.15" y2="12" width="0" layer="49"/>
-<wire x1="37.15" y1="9" x2="3.15" y2="9" width="0" layer="49"/>
-<wire x1="0.15" y1="12" x2="0.15" y2="116.5" width="0" layer="49"/>
-<wire x1="0.15" y1="116.5" x2="3.15" y2="119.5" width="0" layer="49" curve="-90"/>
-<wire x1="3.15" y1="9" x2="0.15" y2="12" width="0" layer="49" curve="-90"/>
-<wire x1="40.15" y1="116.5" x2="37.15" y2="119.5" width="0" layer="49" curve="90"/>
-<wire x1="37.15" y1="9" x2="40.15" y2="12" width="0" layer="49" curve="90"/>
+<wire x1="16.65" y1="7.75" x2="17.15" y2="8.25" width="0.15" layer="29" curve="-90"/>
+<wire x1="17.15" y1="4.25" x2="16.65" y2="4.75" width="0.15" layer="29" curve="-90"/>
+<wire x1="23.65" y1="4.75" x2="23.15" y2="4.25" width="0.15" layer="29" curve="-90"/>
+<wire x1="23.15" y1="8.25" x2="23.65" y2="7.75" width="0.15" layer="29" curve="-90"/>
+<hole x="3.15" y="116.25" drill="2.75"/>
+<hole x="37.15" y="116.25" drill="2.75"/>
+<wire x1="3.15" y1="119.25" x2="37.15" y2="119.25" width="0" layer="49"/>
+<wire x1="40.15" y1="116.25" x2="40.15" y2="12.25" width="0" layer="49"/>
+<wire x1="37.15" y1="9.25" x2="3.15" y2="9.25" width="0" layer="49"/>
+<wire x1="0.15" y1="12.25" x2="0.15" y2="116.25" width="0" layer="49"/>
+<wire x1="0.15" y1="116.25" x2="3.15" y2="119.25" width="0" layer="49" curve="-90"/>
+<wire x1="3.15" y1="9.25" x2="0.15" y2="12.25" width="0" layer="49" curve="-90"/>
+<wire x1="40.15" y1="116.25" x2="37.15" y2="119.25" width="0" layer="49" curve="90"/>
+<wire x1="37.15" y1="9.25" x2="40.15" y2="12.25" width="0" layer="49" curve="90"/>
 <text x="20.3" y="119.5" size="1.4" layer="29" ratio="9" align="center">tall-dog.com</text>
 <text x="32.65" y="7" size="1.25" layer="22" ratio="12" rot="MR0" align="center">BY-SA 4.0</text>
-<text x="20.15" y="100.75" size="3" layer="46" ratio="10" align="center">PLATED
+<text x="20.15" y="101" size="3" layer="46" ratio="10" align="center">PLATED
 CUTOUT</text>
 <polygon width="3.5" layer="30">
-<vertex x="3.25" y="105.25"/>
-<vertex x="37.05" y="105.25"/>
-<vertex x="37.05" y="96.25"/>
-<vertex x="3.25" y="96.25"/>
+<vertex x="3.25" y="105.5"/>
+<vertex x="37.05" y="105.5"/>
+<vertex x="37.05" y="96.5"/>
+<vertex x="3.25" y="96.5"/>
 </polygon>
-<circle x="3.15" y="116.5" radius="2.5" width="0" layer="41"/>
-<circle x="37.15" y="116.5" radius="2.5" width="0" layer="41"/>
-<circle x="3.15" y="116.5" radius="2.5" width="0" layer="42"/>
-<circle x="37.15" y="116.5" radius="2.5" width="0" layer="42"/>
+<circle x="3.15" y="116.25" radius="2.5" width="0" layer="41"/>
+<circle x="37.15" y="116.25" radius="2.5" width="0" layer="41"/>
+<circle x="3.15" y="116.25" radius="2.5" width="0" layer="42"/>
+<circle x="37.15" y="116.25" radius="2.5" width="0" layer="42"/>
 <circle x="6.5" y="125.5" radius="3" width="0" layer="42"/>
 <circle x="8.5" y="125.5" radius="3" width="0" layer="42"/>
 <circle x="31.8" y="125.5" radius="3" width="0" layer="42"/>
@@ -489,7 +489,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="E$1" library="uBraids_SE" package="UBRAIDS-SE" value="" x="22.5" y="111" rot="MR0"/>
+<element name="E$1" library="uBraids_SE" package="UBRAIDS-SE" value="" x="22.5" y="111.25" rot="MR0"/>
 <element name="E$2" library="uBraids_SE" package="OSH-LOGO-5MM" value="" x="7.65" y="12" rot="MR0"/>
 <element name="E$3" library="uBraids_SE" package="CC-LOGO" value="" x="32.65" y="11.5" rot="MR0"/>
 </elements>
@@ -501,19 +501,19 @@ design rules under a new name.</description>
 <vertex x="40.3" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<via x="7.65" y="80.5" extent="1-16" drill="6.25" diameter="9"/>
-<via x="7.65" y="65.5" extent="1-16" drill="6.25" diameter="9"/>
-<via x="7.65" y="50.5" extent="1-16" drill="6.25" diameter="9"/>
-<via x="7.65" y="35.5" extent="1-16" drill="6.25" diameter="9"/>
-<via x="7.65" y="20.5" extent="1-16" drill="6.25" diameter="9"/>
-<via x="32.65" y="65.5" extent="1-16" drill="7.5" diameter="9"/>
-<via x="32.65" y="50.5" extent="1-16" drill="7.5" diameter="9"/>
-<via x="32.65" y="35.5" extent="1-16" drill="7.5" diameter="9"/>
-<via x="32.65" y="20.5" extent="1-16" drill="7.5" diameter="9"/>
-<via x="20.15" y="73" extent="1-16" drill="7.5" diameter="9"/>
-<via x="20.15" y="28" extent="1-16" drill="7.5" diameter="9"/>
-<via x="20.15" y="13.5" extent="1-16" drill="6.25" diameter="9"/>
-<via x="32.65" y="80.5" extent="1-16" drill="7.5" diameter="9"/>
+<via x="7.65" y="80.75" extent="1-16" drill="6.25" diameter="9"/>
+<via x="7.65" y="65.75" extent="1-16" drill="6.25" diameter="9"/>
+<via x="7.65" y="50.75" extent="1-16" drill="6.25" diameter="9"/>
+<via x="7.65" y="35.75" extent="1-16" drill="6.25" diameter="9"/>
+<via x="7.65" y="20.75" extent="1-16" drill="6.25" diameter="9"/>
+<via x="32.65" y="65.75" extent="1-16" drill="7.5" diameter="9"/>
+<via x="32.65" y="50.75" extent="1-16" drill="7.5" diameter="9"/>
+<via x="32.65" y="35.75" extent="1-16" drill="7.5" diameter="9"/>
+<via x="32.65" y="20.75" extent="1-16" drill="7.5" diameter="9"/>
+<via x="20.15" y="73.25" extent="1-16" drill="7.5" diameter="9"/>
+<via x="20.15" y="28.25" extent="1-16" drill="7.5" diameter="9"/>
+<via x="20.15" y="13.75" extent="1-16" drill="6.25" diameter="9"/>
+<via x="32.65" y="80.75" extent="1-16" drill="7.5" diameter="9"/>
 <polygon width="0.25" layer="16" thermals="no">
 <vertex x="0" y="128.5"/>
 <vertex x="40.3" y="128.5"/>
@@ -523,8 +523,8 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="3 1 2bfb9d899df52b87"/>
-<approved hash="3 16 2bfb9d899df52b87"/>
+<approved hash="3	1	2bfb9d899df52b87"/>
+<approved hash="3	16	2bfb9d899df52b87"/>
 </errors>
 </board>
 </drawing>

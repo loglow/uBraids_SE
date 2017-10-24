@@ -77,13 +77,13 @@
 <board>
 <plain>
 <wire x1="3" y1="0" x2="37" y2="0" width="0" layer="20"/>
-<wire x1="40" y1="3" x2="40" y2="107.5" width="0" layer="20"/>
-<wire x1="37" y1="110.5" x2="3" y2="110.5" width="0" layer="20"/>
-<wire x1="0" y1="107.5" x2="0" y2="3" width="0" layer="20"/>
-<wire x1="0" y1="107.5" x2="3" y2="110.5" width="0" layer="20" curve="-90"/>
+<wire x1="40" y1="3" x2="40" y2="107" width="0" layer="20"/>
+<wire x1="37" y1="110" x2="3" y2="110" width="0" layer="20"/>
+<wire x1="0" y1="107" x2="0" y2="3" width="0" layer="20"/>
+<wire x1="0" y1="107" x2="3" y2="110" width="0" layer="20" curve="-90"/>
 <wire x1="3" y1="0" x2="0" y2="3" width="0" layer="20" curve="-90"/>
 <wire x1="40" y1="3" x2="37" y2="0" width="0" layer="20" curve="-90"/>
-<wire x1="37" y1="110.5" x2="40" y2="107.5" width="0" layer="20" curve="-90"/>
+<wire x1="37" y1="110" x2="40" y2="107" width="0" layer="20" curve="-90"/>
 <wire x1="4" y1="24.45" x2="4" y2="28" width="0.127" layer="22"/>
 <wire x1="4" y1="28" x2="4.75" y2="28" width="0.127" layer="22"/>
 <wire x1="4.75" y1="28" x2="4.75" y2="30" width="0.127" layer="22"/>
@@ -117,11 +117,11 @@ TALL-DOG.COM</text>
 <wire x1="26.75" y1="39.25" x2="26.75" y2="35.75" width="0.127" layer="22"/>
 <wire x1="30.7" y1="38.5" x2="31.05" y2="38.5" width="0.127" layer="22"/>
 <wire x1="4" y1="23.05" x2="4" y2="22.7" width="0.127" layer="22"/>
-<circle x="3" y="107.5" radius="2.75" width="0" layer="41"/>
-<circle x="37" y="107.5" radius="2.75" width="0" layer="41"/>
-<circle x="3" y="107.5" radius="2.75" width="0" layer="42"/>
-<circle x="37" y="107.5" radius="2.75" width="0" layer="42"/>
-<text x="20" y="107.75" size="0.88" layer="22" ratio="10" rot="MR0" align="center">Board derived from work by:
+<circle x="3" y="107" radius="2.75" width="0" layer="41"/>
+<circle x="37" y="107" radius="2.75" width="0" layer="41"/>
+<circle x="3" y="107" radius="2.75" width="0" layer="42"/>
+<circle x="37" y="107" radius="2.75" width="0" layer="42"/>
+<text x="20" y="107.25" size="0.88" layer="22" ratio="10" rot="MR0" align="center">Board derived from work by:
 Olivier Gillet of Mutable Instruments,
 Magpie Modular, and Neutron Sound</text>
 <text x="3.1" y="73.25" size="1.3" layer="22" ratio="13" rot="MR180" align="center">RESET</text>
@@ -134,7 +134,7 @@ Magpie Modular, and Neutron Sound</text>
 <vertex x="2.5" y="85"/>
 <vertex x="1.5" y="85"/>
 </polygon>
-<text x="20" y="107.75" size="0.88" layer="21" ratio="10" align="center">Board derived from work by:
+<text x="20" y="107.25" size="0.88" layer="21" ratio="10" align="center">Board derived from work by:
 Olivier Gillet of Mutable Instruments,
 Magpie Modular, and Neutron Sound</text>
 <rectangle x1="36" y1="13" x2="40" y2="25" layer="22"/>
@@ -1446,14 +1446,14 @@ design rules under a new name.</description>
 <contactref element="C18" pad="A"/>
 <contactref element="C15" pad="C"/>
 <polygon width="0.125" layer="16" isolate="0.25">
-<vertex x="0" y="110.5"/>
-<vertex x="40" y="110.5"/>
+<vertex x="0" y="110"/>
+<vertex x="40" y="110"/>
 <vertex x="40" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
 <polygon width="0.125" layer="1" isolate="0.25">
-<vertex x="0" y="110.5"/>
-<vertex x="40" y="110.5"/>
+<vertex x="0" y="110"/>
+<vertex x="40" y="110"/>
 <vertex x="40" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
@@ -1730,21 +1730,21 @@ design rules under a new name.</description>
 <via x="39.25" y="98" extent="1-16" drill="0.25"/>
 <via x="39.25" y="100.5" extent="1-16" drill="0.25"/>
 <via x="39.25" y="102.5" extent="1-16" drill="0.25"/>
-<via x="20" y="109.75" extent="1-16" drill="0.25"/>
-<via x="17.5" y="109.75" extent="1-16" drill="0.25"/>
-<via x="15" y="109.75" extent="1-16" drill="0.25"/>
-<via x="12.5" y="109.75" extent="1-16" drill="0.25"/>
-<via x="10" y="109.75" extent="1-16" drill="0.25"/>
-<via x="7.5" y="109.75" extent="1-16" drill="0.25"/>
-<via x="22.5" y="109.75" extent="1-16" drill="0.25"/>
-<via x="25" y="109.75" extent="1-16" drill="0.25"/>
-<via x="27.5" y="109.75" extent="1-16" drill="0.25"/>
-<via x="30" y="109.75" extent="1-16" drill="0.25"/>
-<via x="32.5" y="109.75" extent="1-16" drill="0.25"/>
-<via x="5.75" y="109.75" extent="1-16" drill="0.25"/>
-<via x="0.75" y="104.75" extent="1-16" drill="0.25"/>
-<via x="34.25" y="109.75" extent="1-16" drill="0.25"/>
-<via x="39.25" y="104.75" extent="1-16" drill="0.25"/>
+<via x="20" y="109.25" extent="1-16" drill="0.25"/>
+<via x="17.5" y="109.25" extent="1-16" drill="0.25"/>
+<via x="15" y="109.25" extent="1-16" drill="0.25"/>
+<via x="12.5" y="109.25" extent="1-16" drill="0.25"/>
+<via x="10" y="109.25" extent="1-16" drill="0.25"/>
+<via x="7.5" y="109.25" extent="1-16" drill="0.25"/>
+<via x="22.5" y="109.25" extent="1-16" drill="0.25"/>
+<via x="25" y="109.25" extent="1-16" drill="0.25"/>
+<via x="27.5" y="109.25" extent="1-16" drill="0.25"/>
+<via x="30" y="109.25" extent="1-16" drill="0.25"/>
+<via x="32.5" y="109.25" extent="1-16" drill="0.25"/>
+<via x="5.75" y="109.25" extent="1-16" drill="0.25"/>
+<via x="0.75" y="104.25" extent="1-16" drill="0.25"/>
+<via x="34.25" y="109.25" extent="1-16" drill="0.25"/>
+<via x="39.25" y="104.25" extent="1-16" drill="0.25"/>
 <via x="6.75" y="102" extent="1-16" drill="0.25"/>
 <via x="6.25" y="98" extent="1-16" drill="0.25"/>
 <via x="6.25" y="95.5" extent="1-16" drill="0.25"/>
@@ -1755,12 +1755,12 @@ design rules under a new name.</description>
 <via x="14.25" y="99.25" extent="1-16" drill="0.25"/>
 <via x="10" y="99" extent="1-16" drill="0.25"/>
 <via x="21.5" y="93.75" extent="1-16" drill="0.25"/>
-<via x="3" y="104" extent="1-16" drill="0.25"/>
-<via x="6.5" y="107.5" extent="1-16" drill="0.25"/>
-<via x="5.5" y="105" extent="1-16" drill="0.25"/>
-<via x="33.5" y="107.5" extent="1-16" drill="0.25"/>
-<via x="37" y="104" extent="1-16" drill="0.25"/>
-<via x="34.5" y="105" extent="1-16" drill="0.25"/>
+<via x="3" y="103.5" extent="1-16" drill="0.25"/>
+<via x="6.5" y="107" extent="1-16" drill="0.25"/>
+<via x="5.5" y="104.5" extent="1-16" drill="0.25"/>
+<via x="33.5" y="107" extent="1-16" drill="0.25"/>
+<via x="37" y="103.5" extent="1-16" drill="0.25"/>
+<via x="34.5" y="104.5" extent="1-16" drill="0.25"/>
 <via x="11.25" y="10" extent="1-16" drill="0.25"/>
 <via x="3.25" y="6.25" extent="1-16" drill="0.25"/>
 <via x="6.75" y="6.25" extent="1-16" drill="0.25"/>
@@ -3170,58 +3170,58 @@ design rules under a new name.</description>
 <wire x1="12.25" y1="103.25" x2="12.38" y2="103.25" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
-<via x="3" y="107.5" extent="1-16" drill="2.75" diameter="5"/>
+<via x="3" y="107" extent="1-16" drill="2.75" diameter="5"/>
 </signal>
 <signal name="N$2">
-<via x="37" y="107.5" extent="1-16" drill="2.75" diameter="5"/>
+<via x="37" y="107" extent="1-16" drill="2.75" diameter="5"/>
 </signal>
 <signal name="N$3">
-<via x="3" y="109.375" extent="1-16" drill="0.25"/>
+<via x="3" y="108.875" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$4">
-<via x="3" y="105.625" extent="1-16" drill="0.25"/>
+<via x="3" y="105.125" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$5">
-<via x="4.875" y="107.5" extent="1-16" drill="0.25"/>
+<via x="4.875" y="107" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$6">
-<via x="1.125" y="107.5" extent="1-16" drill="0.25"/>
+<via x="1.125" y="107" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$7">
-<via x="1.625" y="108.875" extent="1-16" drill="0.25"/>
+<via x="1.625" y="108.375" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$8">
-<via x="4.375" y="108.875" extent="1-16" drill="0.25"/>
+<via x="4.375" y="108.375" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$9">
-<via x="4.375" y="106.125" extent="1-16" drill="0.25"/>
+<via x="4.375" y="105.625" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$10">
-<via x="1.625" y="106.125" extent="1-16" drill="0.25"/>
+<via x="1.625" y="105.625" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$15">
-<via x="37" y="109.375" extent="1-16" drill="0.25"/>
+<via x="37" y="108.875" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$16">
-<via x="37" y="105.625" extent="1-16" drill="0.25"/>
+<via x="37" y="105.125" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$17">
-<via x="38.875" y="107.5" extent="1-16" drill="0.25"/>
+<via x="38.875" y="107" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$18">
-<via x="35.125" y="107.5" extent="1-16" drill="0.25"/>
+<via x="35.125" y="107" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$19">
-<via x="35.625" y="108.875" extent="1-16" drill="0.25"/>
+<via x="35.625" y="108.375" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$20">
-<via x="38.375" y="108.875" extent="1-16" drill="0.25"/>
+<via x="38.375" y="108.375" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$21">
-<via x="38.375" y="106.125" extent="1-16" drill="0.25"/>
+<via x="38.375" y="105.625" extent="1-16" drill="0.25"/>
 </signal>
 <signal name="N$22">
-<via x="35.625" y="106.125" extent="1-16" drill="0.25"/>
+<via x="35.625" y="105.625" extent="1-16" drill="0.25"/>
 </signal>
 </signals>
 </board>
