@@ -829,6 +829,19 @@ TS-003</description>
 <text x="0" y="2" size="1" layer="21" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
+<package name="M2.5-HOLE">
+<circle x="0" y="0" radius="2.75" width="0" layer="41"/>
+<circle x="0" y="0" radius="2.75" width="0" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="2.75" diameter="5"/>
+<pad name="P$2" x="0" y="1.95" drill="0.25" stop="no"/>
+<pad name="P$3" x="0" y="-1.95" drill="0.25" stop="no"/>
+<pad name="P$4" x="-1.95" y="0" drill="0.25" stop="no"/>
+<pad name="P$5" x="1.95" y="0" drill="0.25" stop="no"/>
+<pad name="P$6" x="1.4" y="1.4" drill="0.25" stop="no"/>
+<pad name="P$7" x="-1.4" y="1.4" drill="0.25" stop="no"/>
+<pad name="P$8" x="-1.4" y="-1.4" drill="0.25" stop="no"/>
+<pad name="P$9" x="1.4" y="-1.4" drill="0.25" stop="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HEADER-2X5">
@@ -1205,6 +1218,11 @@ TS-003</description>
 <text x="0" y="6.35" size="1.524" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="3.81" size="1.143" layer="96" align="center">&gt;VALUE</text>
 <pin name="3V3" x="-12.7" y="0" length="short"/>
+</symbol>
+<symbol name="HOLE">
+<pin name="P$1" x="-2.54" y="0" visible="off" length="short"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1805,6 +1823,21 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="HOLE">
+<gates>
+<gate name="G$1" symbol="HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="M2.5-HOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames" urn="urn:adsk.eagle:library:229">
@@ -1812,10 +1845,10 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="LETTER_L" library_version="1">
+<symbol name="LETTER_L" urn="urn:adsk.eagle:symbol:13870/1" library_version="1">
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="12" rows="17" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 </symbol>
-<symbol name="DOCFIELD" library_version="1">
+<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1" library_version="1">
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
@@ -1846,7 +1879,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LETTER_L" prefix="FRAME" uservalue="yes" library_version="1">
+<deviceset name="LETTER_L" urn="urn:adsk.eagle:component:13920/1" prefix="FRAME" uservalue="yes" library_version="1">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 LETTER landscape</description>
 <gates>
@@ -1961,7 +1994,7 @@ LETTER landscape</description>
 <part name="H3" library="uBraids_SE" deviceset="HEADER-2X5" device="-PTH-0.1-SHROUDED"/>
 <part name="R4" library="uBraids_SE" deviceset="RESISTOR" device="-0805" value="4.7R"/>
 <part name="U6" library="uBraids_SE" deviceset="LM4041" device="-SOT-23" value="LM4040B10"/>
-<part name="R7" library="uBraids_SE" deviceset="RESISTOR" device="-1206" value="330R"/>
+<part name="R7" library="uBraids_SE" deviceset="RESISTOR" device="-0805" value="330R"/>
 <part name="C17" library="uBraids_SE" deviceset="CAP-NP" device="-0603" value="100n"/>
 <part name="A1" library="uBraids_SE" deviceset="DISPLAY-MODULE" device=""/>
 <part name="C15" library="uBraids_SE" deviceset="CAP-P" device="-6.6MM" value="47uF"/>
@@ -1971,6 +2004,8 @@ LETTER landscape</description>
 <part name="C31" library="uBraids_SE" deviceset="CAP-P" device="-4.3MM" value="10uF"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
+<part name="HOLE1" library="uBraids_SE" deviceset="HOLE" device=""/>
+<part name="HOLE2" library="uBraids_SE" deviceset="HOLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2027,6 +2062,8 @@ Magpie Modular, and Neutron Sound</text>
 <instance part="U6" gate="G$1" x="223.52" y="96.52" rot="R180"/>
 <instance part="R7" gate="G$1" x="223.52" y="106.68" rot="R270"/>
 <instance part="C17" gate="G$1" x="231.14" y="96.52" rot="R270"/>
+<instance part="HOLE1" gate="G$1" x="104.14" y="162.56"/>
+<instance part="HOLE2" gate="G$1" x="104.14" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -3631,6 +3668,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
