@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -92,7 +92,7 @@
 <wire x1="1.25" y1="30.5" x2="1.25" y2="28.5" width="0.127" layer="22"/>
 <wire x1="1.25" y1="28.5" x2="4" y2="28.5" width="0.127" layer="22"/>
 <wire x1="4.75" y1="30.5" x2="1.25" y2="30.5" width="0.127" layer="22"/>
-<text x="22.25" y="15.75" size="1.4" layer="22" ratio="10" rot="MR180" align="center">2017-10-24</text>
+<text x="22.25" y="15.75" size="1.4" layer="22" ratio="10" rot="MR180" align="center">2017-12-29</text>
 <wire x1="15.5" y1="14.5" x2="15.5" y2="17" width="0.127" layer="22"/>
 <wire x1="29" y1="17" x2="29" y2="14.5" width="0.127" layer="22"/>
 <wire x1="29" y1="14.5" x2="15.5" y2="14.5" width="0.127" layer="22"/>
@@ -103,7 +103,7 @@
 <wire x1="16" y1="7" x2="16" y2="9.5" width="0.127" layer="22"/>
 <text x="20" y="34.5" size="1.5" layer="21" ratio="10" rot="R90" align="center">µBraids_SE
 TD-UBSE-C
-2017-10-24
+2017-12-29
 TALL-DOG.COM
 CC BY-SA 4.0</text>
 <wire x1="29.3" y1="39" x2="28.75" y2="39" width="0.127" layer="22"/>
@@ -907,9 +907,11 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="1"/>
+<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
