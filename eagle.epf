@@ -1,0 +1,8 @@
+[Eagle]
+Version="09 02 02"
+Platform="Mac OS X"
+Globals="Globals"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="uBraids_SE_Library.lbr"
