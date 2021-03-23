@@ -1,5 +1,5 @@
-Name,Part Number,Material,Soldermask,Silkscreen,Finish,Thickness (mm),Length (mm),Width (mm),Trace (mil),Hole (mm)
-uBraids SE Main Board,TD-UBSE-E-MB,FR-4,Matte black,White,ENIG,1.6,110.5,40.0,10,0.25
-uBraids SE Display Module,TD-UBSE-E-DM,FR-4,Matte black,White,ENIG,1.2,25.0,40.0,10,0.33
-uBraids SE Front Panel,TD-UBSE-E-FP,FR-4,Matte black,None,ENIG,2.0,128.5,40.3,N/A,N/A
-uBraids SE Assembly Template,TD-UBSE-E-AT,FR-4,Blue,White,HASL,1.6,110.5,40.0,N/A,N/A
+"Name","Part Number","Material","Soldermask","Silkscreen","Finish","Thickness (mm)","Length (mm)","Width (mm)","Trace (mil)","Hole (mm)"
+"uBraids SE Main Board","TD-UBSE-F-MB","FR-4","Matte black","White","ENIG","1.6","110.5","40","10","0.25"
+"uBraids SE Display Module","TD-UBSE-F-DM","FR-4","Matte black","White","ENIG","1.2","25","40","10","0.33"
+"uBraids SE Front Panel","TD-UBSE-F-FP","FR-4","Matte black","None","ENIG","2","128.5","40.3","N/A","N/A"
+"uBraids SE Assembly Template","TD-UBSE-F-AT","FR-4","Green","White","ENIG","2","110.5","40","N/A","N/A"
